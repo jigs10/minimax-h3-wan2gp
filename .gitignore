@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Kaggle
+/kaggle/
+/tmp/
+
+# Model weights
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.gguf
+*.onnx
+
+# AI model/cache directories
+.cache/
+.cache/
+huggingface/
+transformers/
+torch/
+
+# Generated media
+*.mp4
+*.webm
+*.mov
+*.avi
+*.mkv
+*.gif
+*.wav
+*.mp3
+
+# Wan2GP
+Wan2GP/outputs/
+Wan2GP/ckpts/
+Wan2GP/loras/
+Wan2GP/.gradio/
+Wan2GP/.cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
