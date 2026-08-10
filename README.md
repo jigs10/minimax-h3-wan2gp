@@ -16,7 +16,7 @@ Large model files are kept in `/tmp` to avoid filling Kaggle’s limited `/kaggl
 ## Requirements
 
 - Kaggle Notebook
-- **GPU P100** (recommended) or single T4
+- Single T4
 - Internet access enabled
 - Enough free space in `/tmp`
 
@@ -25,7 +25,7 @@ Large model files are kept in `/tmp` to avoid filling Kaggle’s limited `/kaggl
 ## Quick Start
 
 1. Open `minimax-h3-wan2gp-kaggle.ipynb`
-2. Set Accelerator → **GPU P100** (or T4)
+2. Set Accelerator → T4
 3. Turn **Internet** On
 4. Run all cells from top to bottom
 5. Keep the last cell running and open the Gradio URL it prints
@@ -69,7 +69,7 @@ Keep other acceleration methods **off** for the first run.
 
 ## Performance Expectations
 
-MiniMax H3 is large. Even with the Turbo LoRA (fewer steps), generation on a single Kaggle GPU (P100 or T4) is relatively slow. Speed depends on resolution, frames, steps, and offloading settings.
+MiniMax H3 is large. Even with the Turbo LoRA (fewer steps), generation on a single Kaggle GPU (T4) is relatively slow. Speed depends on resolution, frames, steps, and offloading settings.
 
 ## Credits
 
