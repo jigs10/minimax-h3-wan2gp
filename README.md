@@ -43,10 +43,8 @@ Source model: [DeepBeepMeep/MiniMax-H3](https://huggingface.co/DeepBeepMeep/Mini
 ## Turbo LoRA (Recommended)
 
 ```text
-minimax_h3_turbo_v4_step600_ema.safetensors
+Turbo EMA ckpt850 4 steps
 ```
-
-Source: [larryvrh/MiniMax-H3-Turbo-Lora](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora) (~780 MB)
 
 ## Suggested First Test Settings
 
@@ -75,4 +73,3 @@ MiniMax H3 is large. Even with the Turbo LoRA (fewer steps), generation on a sin
 
 - [MiniMax H3](https://huggingface.co/DeepBeepMeep/MiniMax-H3)
 - [Wan2GP](https://github.com/deepbeepmeep/Wan2GP)
-- [MiniMax H3 Turbo LoRA](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora)
