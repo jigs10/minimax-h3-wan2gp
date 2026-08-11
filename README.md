@@ -4,6 +4,10 @@ Run **MiniMax H3 FL2VA Pruned 20B** on Kaggle using **Wan2GP**.
 
 Large model files are kept in `/tmp` to avoid filling Kaggle’s limited `/kaggle/working` storage.
 
+## 🎥 Video Tutorial
+
+[▶️ Watch the full tutorial on YouTube](https://youtu.be/hNSN-MP1TRE)
+
 ## What’s Included
 
 - MiniMax H3 FL2VA Pruned INT8 ConvRot (~21 GB)
